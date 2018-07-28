@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <form>
+        <h1>My Contacts</h1>
+        <input type='text' placeholder="Name">
+        <input type='text' placeholder="Email">
+        <input type='text' placeholder="Phone">
+        <input type='text' placeholder='Relation'>
+        <button type='button'>Add</button>
+    </form>
+    <section class='contactcontainer'>
+        <ul>            <!--Grandparent of button, thing we'll add the listener to-->
+            <li>        
+                <ul>
+                    <li>Name: </li>
+                    <li>Email: </li>
+                    <li>Phone: </li>
+                    <li>Relation: </li>
+                </ul>
+                <button type='button' value='0'>X</button>
+            </li>
+        </ul>
+    </section>
+    
+    <script src="scripts/script.js"></script>
+</body>
+</html>
