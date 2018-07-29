@@ -48,6 +48,16 @@ class AddressBook {
                 newEl.classList.add('item');
                 targetCol.appendChild(newEl);
             }
+            if(this.contacts.length < 3) {
+                contactCols[2].style.display = 'none';
+            } else {
+                contactCols[2].style.display = 'flex';
+            }
+            if(this.contacts.length < 2) {
+                contactCols[1].style.display = 'none';
+            } else {
+                contactCols[1].style.display = 'flex';
+            }
         }
     }
 

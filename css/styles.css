@@ -9,6 +9,7 @@ body {
     align-items: center;
     flex-direction: column;
     height: 200em;
+    font-family: 'Maven Pro', sans-serif;
 }
 
 form {
